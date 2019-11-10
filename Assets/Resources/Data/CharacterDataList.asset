@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd90504955cf98544be5ad54ffed407c, type: 3}
+  m_Name: CharacterDataList
+  m_EditorClassIdentifier: 
+  characterList:
+  - id: 1
+    stats:
+      health:
+        defaultValue: 100
+      armor:
+        defaultValue: 100
+      attack:
+        attackType: -1
+        damage:
+          defaultValue: 2.6
+        speed:
+          defaultValue: 0.6
+        range:
+          min: 0
+          max: 2.3
+      move:
+        speed:
+          defaultValue: 1.2
+      magic:
+        defaultValue: 12
+  - id: 2
+    stats:
+      health:
+        defaultValue: 101
+      armor:
+        defaultValue: 101
+      attack:
+        attackType: 0
+        damage:
+          defaultValue: 2.61
+        speed:
+          defaultValue: 0.7
+        range:
+          min: 0
+          max: 2.4
+      move:
+        speed:
+          defaultValue: 1.2
+      magic:
+        defaultValue: 13
+  - id: 3
+    stats:
+      health:
+        defaultValue: 102
+      armor:
+        defaultValue: 102
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 2.8
+        speed:
+          defaultValue: 0.8
+        range:
+          min: 0
+          max: 2.3
+      move:
+        speed:
+          defaultValue: 1.2
+      magic:
+        defaultValue: 14
+  - id: 4
+    stats:
+      health:
+        defaultValue: 103
+      armor:
+        defaultValue: 103
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 2.9
+        speed:
+          defaultValue: 0.9
+        range:
+          min: 0
+          max: 2.6
+      move:
+        speed:
+          defaultValue: 1.5
+      magic:
+        defaultValue: 15
+  - id: 5
+    stats:
+      health:
+        defaultValue: 104
+      armor:
+        defaultValue: 104
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3
+        speed:
+          defaultValue: 1
+        range:
+          min: 0
+          max: 2.7
+      move:
+        speed:
+          defaultValue: 1.6
+      magic:
+        defaultValue: 16
+  - id: 6
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
