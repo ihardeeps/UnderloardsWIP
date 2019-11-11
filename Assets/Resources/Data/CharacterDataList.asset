@@ -24,7 +24,7 @@ MonoBehaviour:
         damage:
           defaultValue: 2.6
         speed:
-          defaultValue: 1
+          defaultValue: 0.5
         range:
           min: 0
           max: 2.3
@@ -84,7 +84,7 @@ MonoBehaviour:
         damage:
           defaultValue: 2.9
         speed:
-          defaultValue: 1
+          defaultValue: 0.5
         range:
           min: 0
           max: 2.6
