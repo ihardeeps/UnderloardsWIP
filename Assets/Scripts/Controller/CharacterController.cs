@@ -57,7 +57,7 @@ public class CharacterController : MonoBehaviour, ICharacterController
     {
         LevelManagerRef = levelManager;
         ready = true;
-        StartCoroutine("DelayedUpdateBehaviour");
+        StartCoroutine(DelayedUpdateBehaviour());
     }
     public void Load(ICharacter character, Unit.Type type)
     {
@@ -85,7 +85,7 @@ public class CharacterController : MonoBehaviour, ICharacterController
     }
     private void Die()
     {
-        StartCoroutine("DelayedDeath");
+        StartCoroutine(DelayedDeath());
     }
     private IEnumerator DelayedDeath()
     {
@@ -115,13 +115,13 @@ public class CharacterController : MonoBehaviour, ICharacterController
             transform.position = Vector3.MoveTowards(Position, Target.Position, Unit.Stats.Move.Speed.Value * Time.deltaTime);
             yield return null;
         }
-        tempFloat1 = 0;
         //Keep attacking until dead
         while (Target.IsAlive)
         {
             Attack(Target);
+            tempFloat1 = 0;
             //Doing this because Attack speed can be buffed/debuffed during the fight.
-            while (tempFloat1 > Unit.Stats.Attack.Speed.Value)
+            while (tempFloat1 < Unit.Stats.Attack.Speed.Value)
             {
                 tempFloat1 += Time.deltaTime;
                 yield return null;
@@ -131,8 +131,8 @@ public class CharacterController : MonoBehaviour, ICharacterController
         target = null;
 
         //Target died, find a new target
-        StopCoroutine("DelayedUpdateBehaviour");
-        StartCoroutine("DelayedUpdateBehaviour");
+        StopCoroutine(DelayedUpdateBehaviour());
+        StartCoroutine(DelayedUpdateBehaviour());
     }
     private void OnEnable()
     {
@@ -140,6 +140,6 @@ public class CharacterController : MonoBehaviour, ICharacterController
     }
     private void OnDisable()
     {
-        StopCoroutine("DelayedUpdateBehaviour");
+        StopCoroutine(DelayedUpdateBehaviour());
     }
 }

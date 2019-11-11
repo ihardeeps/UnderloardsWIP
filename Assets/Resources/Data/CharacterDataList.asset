@@ -24,7 +24,7 @@ MonoBehaviour:
         damage:
           defaultValue: 2.6
         speed:
-          defaultValue: 0.6
+          defaultValue: 1
         range:
           min: 0
           max: 2.3
@@ -84,7 +84,7 @@ MonoBehaviour:
         damage:
           defaultValue: 2.9
         speed:
-          defaultValue: 0.9
+          defaultValue: 1
         range:
           min: 0
           max: 2.6
@@ -114,6 +114,126 @@ MonoBehaviour:
       magic:
         defaultValue: 16
   - id: 6
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
+  - id: 7
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
+  - id: 8
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
+  - id: 9
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
+  - id: 10
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
+  - id: 11
+    stats:
+      health:
+        defaultValue: 105
+      armor:
+        defaultValue: 105
+      attack:
+        attackType: 1
+        damage:
+          defaultValue: 3.1
+        speed:
+          defaultValue: 1.1
+        range:
+          min: 0
+          max: 2.8
+      move:
+        speed:
+          defaultValue: 1.7
+      magic:
+        defaultValue: 12.5
+  - id: 12
     stats:
       health:
         defaultValue: 105

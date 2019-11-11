@@ -13,6 +13,12 @@ public class Character : ICharacter, IEquatable<ICharacter>
         SUPERMAN,
         FELICITY,
         SLADE,
+        MOIRA,
+        ROBERT,
+        MALCOLM,
+        RAS,
+        ALSAHIM,
+        ALSAHER,
         MAX
     }
     [SerializeField]
